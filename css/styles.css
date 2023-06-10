@@ -695,7 +695,7 @@ img {
 
 /* -------------------------------------------------------MODAL--------------------------------------------------------*/
 .backdrop {
-  padding: 72px 24px 24px 24px;
+  
   position: fixed;
   z-index: 100;
   left: 0;
@@ -709,8 +709,7 @@ img {
 }
 
 .modal {
-  padding-right: 24px;
-  padding-left: 24px;
+  padding: 72px 24px 24px 24px;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -761,7 +760,7 @@ img {
   pointer-events: none;
 }
 .modal-title {
-  margin-top: 72px;
+  
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
