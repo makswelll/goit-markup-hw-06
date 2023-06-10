@@ -478,6 +478,7 @@ img {
   align-items: flex-start;
   width: 208px;
   height: 80px;
+  margin-right: 80px;
 }
 .footer-soc-title {
   font-style: normal;
@@ -513,6 +514,74 @@ img {
 }
 .footer-soc-icon {
   fill: #f4f4fd;
+}
+
+
+.sub-form {
+  display: flex;
+  gap: 24px;
+  align-items: end;
+}
+
+.sub-label {
+}
+
+.sub-input {
+  padding: 8px 16px;
+  width: 264px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sub-input:focus {
+  border: 1px solid var(--accent-color);
+  outline: none;
+}
+
+.sub-input::placeholder {
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.sub-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-width: 165px;
+  height: 40px;
+  padding: 8px 24px;
+  background-color: var(--accent-color);
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sub-btn:is(:hover, :focus) {
+  background-color: var(--accent-color);
+}
+
+.sub-icon {
+  margin-left: 16px;
+  fill: #ffffff;
 }
 
 /* -------------------------------------------------------PORTFOLIO PROJECTS--------------------------------------------------------*/
